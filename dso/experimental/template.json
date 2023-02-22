@@ -1,0 +1,14 @@
+{
+	"experiment" : {
+		"logdir" : "./log",
+		"save_path" : "./log/name.logd",
+		"timestamp" : "time",
+		"task_name" : "gaussian"
+	},
+	"task" : {
+		"task_type" : "regression",
+		"dataset" : "./data/data.csv",
+		"function_set" : ["add", "sub", "mul", "div", "sin", "cos", "exp", "log"]
+	}
+}
+

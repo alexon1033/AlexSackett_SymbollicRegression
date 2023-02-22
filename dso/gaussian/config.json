@@ -1,0 +1,1 @@
+{ "experiment": { "logdir": "./log", "save_path": "./log/Nguyen1_test.d", "timestamp": "07:57:55", "task_name": "Nguyen1_test" }, "task": { "task_type": "regression", "dataset": "./data/Nguyen1_test.csv" } }

@@ -1,0 +1,16 @@
+complexity,r,count_on_policy,count_off_policy,expression,traversal,nmse_test,nmse_test_noiseless,success
+5,0.24501460392854188,0,1,[-x2],"sub,sub,x1,x2,x1",9.494960450336002,9.494960450336002,False
+6,0.3163027748735961,0,1,[1 - x2],"sub,div,x2,x2,x2",4.672202211766617,4.672202211766617,False
+7,0.39363582523209106,0,1,[-x2 + log(x2)],"sub,log,x2,x2",2.3728912473355197,2.3728912473355197,False
+10,0.44232905297802344,0,1,[-x2 + exp(sin(x2))],"sub,exp,sin,x2,x2",1.5895167477737833,1.5895167477737833,False
+12,0.4545201764476315,0,1,[x2*cos(log(x2**2))],"mul,cos,log,mul,x2,x2,x2",1.4402936616847466,1.4402936616847466,False
+14,0.512196262623675,0,1,[x2*cos(log(-x1 + x2**2))],"mul,cos,log,sub,mul,x2,x2,x1,x2",0.9070211965802811,0.9070211965802811,False
+18,0.5306502531785627,0,1,[-log(3*x2*(x1 + x2)) + sin(x2)],"sub,sin,x2,log,mul,add,x2,add,x2,x2,add,x1,x2",0.7823055734170361,0.7823055734170361,False
+20,0.5503434319777799,0,1,[-log(4*x2*(x1 + x2)) + sin(x2)],"sub,sin,x2,log,mul,add,add,add,x2,x2,x2,x2,add,x2,x1",0.6675661504443038,0.6675661504443038,False
+22,0.5596502708089722,0,1,[-log(2*x2*(3*x1 + 2*x2)) + sin(x2)],"sub,sin,x2,log,mul,add,add,x1,x2,add,x1,add,x1,x2,add,x2,x2",0.6191017486739083,0.6191017486739083,False
+25,0.568105588867104,0,1,[-x2 + x2/(x1 + x2) + sin(x2) - cos(x2) + 1],"sub,cos,sub,x2,x2,add,sub,sub,cos,x2,div,x2,add,x2,x1,sin,x2,x2",0.5779590183774671,0.5779590183774671,False
+27,0.5713405498650799,0,1,[x2*sin(log(log((x1 + x2)*(x1 + 2*x2))/x2**2))],"mul,x2,sin,log,div,log,mul,add,add,x2,x2,x1,add,x2,x1,mul,x2,x2",0.562904484040139,0.562904484040139,False
+30,0.6408956278669267,0,1,[sin((2*x1 + 4*x2)/x2) - (x1 + 4*x2)/x2],"sub,sin,div,add,add,add,add,add,x2,x2,x2,x1,x2,x1,x2,div,add,add,add,add,x2,x2,x1,x2,x2,x2",0.31395454006309853,0.31395454006309853,False
+39,0.6925415412744867,0,1,[sin((2*x1 + 4*x2)/x2) - (x1 + 4*x2 + exp(cos(x2)))/x2],"sub,sin,div,add,add,add,add,add,x2,x2,x2,x1,x2,x1,x2,div,add,add,add,add,add,exp,cos,x2,x2,x2,x1,x2,x2,x2",0.19709755333186804,0.19709755333186804,False
+63,0.7069854716406138,0,1,[sin((2*x1 + 4*x2)/x2) - (x1 + 3*x2 + exp(cos(x2)) + log(2*x2) + cos(x2) + E)/x2],"sub,sin,div,add,add,add,add,add,x1,x2,x2,x2,x2,x1,x2,div,add,add,add,add,add,add,add,log,sub,add,x2,add,x2,x1,x1,exp,cos,x2,exp,div,x2,x2,x2,x2,x1,cos,x2,x2,x2",0.17177396086238364,0.17177396086238364,False
+65,0.7139684836538236,0,1,[sin((2*x1 + 4*x2)/x2) - (x1 + 3*x2 + exp(cos(x2)) + log(x1 + 2*x2) + cos(x2) + E)/x2],"sub,sin,div,add,add,add,add,add,x2,x2,x1,x2,x2,x1,x2,div,add,add,add,add,add,add,add,log,sub,add,x2,add,x2,add,x1,x1,x1,exp,cos,x2,exp,div,x2,x2,x2,x2,x1,cos,x2,x2,x2",0.16049802558760748,0.16049802558760748,False

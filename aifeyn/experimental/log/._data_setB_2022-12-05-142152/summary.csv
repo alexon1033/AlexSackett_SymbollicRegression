@@ -1,0 +1,2 @@
+seed,r,nmse_test,nmse_test_noiseless,success,expression,traversal,error_log,error_true_divide,error_exp,error_multiply,error_node_divide,error_node_invalid,error_node_overflow,error_node_underflow,n_epochs,n_samples,n_cached,t
+0,0.9109924181021365,0.009546067042774461,0.009546067042774461,False,[sin(x1/(2*x1*(2*x1 + exp(-exp(2*x1))) - x1 + exp(x1*exp(-x1))))],"sin,div,x1,sub,add,exp,sub,add,div,x1,exp,x1,x1,x1,mul,add,add,exp,sub,sub,x1,x1,exp,add,x1,x1,x1,x1,add,x1,x1,x1",115973,198534,112605,13,156710,157797,94529,18089,247,2005827,840858,445.86316895484924

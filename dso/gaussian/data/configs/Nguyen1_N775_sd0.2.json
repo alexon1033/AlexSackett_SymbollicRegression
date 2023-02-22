@@ -1,0 +1,12 @@
+{
+  "experiment": {
+    "logdir": "./log",
+    "save_path": "/home/alex/sr/data/gaussian/log/",
+    "timestamp": "1669115390",
+    "task_name": "Nguyen1_N775_sd0.2"
+  },
+  "task": {
+    "task_type": "regression",
+    "dataset": "./data/Nguyen1_N775_sd0.2.csv"
+  }
+}

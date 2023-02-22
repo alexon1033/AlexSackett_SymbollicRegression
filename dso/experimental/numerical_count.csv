@@ -1,0 +1,190 @@
+,expression,numerical matches,exact matches
+0,[(x1**2 + x1*(log(x1) - 1)*(sin(x1) + (x1 + exp(x1/log(x1 + (2*x1**2 + x1**2/cos(1/(2*log(x1 + 1))) - x1)/x1)))/x1) + x1)/x1**2],10,10.0
+0,[(2*x1 + (x1 + exp(x1/log(x1 + (2*x1**2 + x1**2/cos(1/(2*x1)) - 2*x1)/x1)))*(log(x1) - sin(1)))/x1**2],10,10.0
+0,[x1*exp(sin(x1**2 + x1 - log(exp(2*x1)*log(exp(x1)))/x1))*log(log(log(log(x1**2*exp(x1)))))],0,10.0
+0,[log(exp(exp(2*(x1*cos((x1*(x1 + exp(2*x1)) + x1)/(2*x1)) + x1)/x1))*log(x1))],0,10.0
+0,[x1*exp(sin(x1**2 + x1 - 2))*log(log(log(log((x1 + log(x1))*exp(x1)))))],0,10.0
+0,[x1*exp(sin(x1**2 + x1 - 2))*log(log(log(log(x1*exp(x1)))))],0,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1*(2*x1 + log(x1))))/x1**2)],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1*(2*x1 + log(x1))))/x1**2)],10,10.0
+0,[(x1*log(x1**2 + x1*exp(x1*cos(2*x1**2))) - 2*x1)/x1],10,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1**2)) - 2/x1)],10,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[x1*cos(x1**2)*cos(2*x1**2)],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[2*x1/(x1*cos(x1) + x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[log(x1*exp(x1*cos(x1*log(log(log(x1 + exp(log(log(2*x1))/x1)))/x1**2))) + x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(2*x1))/x1))/x1**2))) + sin(log(log(x1 + exp(log(log(x1 + log(x1**2)))/x1)))/x1))/x1)],0,10.0
+0,[log(x1*exp(x1*cos(x1*log(log(log(x1 + exp(log(log(2*x1))/x1)))/x1**2))) + x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(2*x1))/x1))/x1**2))) + sin(log(log(x1 + exp(log(log(2*x1))/x1)))/x1))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(2*x1))/x1))/x1**2))) + log(log(log(x1 + 1))/x1**2))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(x1 + log(1/x1)))/x1))/x1**2))) - x1 + cos(x1))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(2*x1))/x1))/x1**2))) + sin(x1 + log(2*x1)/x1))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(2*x1))/x1))/x1**2))) + sin(x1))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(x1))/x1))/x1**2))) + sin(x1))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(2*x1))/x1))/x1**2))) + x1)/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1 + log(log(x1))/x1))/x1**2))) + x1)/x1)],0,10.0
+0,[log(x1 + exp(x1*cos(x1*log(log(log(x1))/x1**2)))*sin(1))],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1))/x1**2))) + sin(x1**2))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1))/x1**2))) + sin(x1))/x1)],0,10.0
+0,[log(x1 + (x1*exp(x1*cos(x1*log(log(log(x1))/x1**2))) + x1)/x1)],0,10.0
+0,[exp(x1/(x1 + log(x1**2*exp(-x1)) - sin(exp(x1))))/x1],10,10.0
+0,[exp(x1/(x1 + log(x1**2*exp(-x1)) + sin(x1 - exp(x1))))/x1],10,10.0
+0,[log(x1 + 2*exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[x1*cos(x1**2)*cos(2*x1**2)],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[2*x1/(x1*cos(x1) + x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[log(x1*exp(x1*exp(sin((-x1*log(x1 + 1/x1) + x1)/x1))*exp(sin((-x1*log(x1 + (-x1*log(x1 + 3) + x1)/x1**2) + x1)/x1))*log(log(x1))**2 - x1) + x1)],0,10.0
+0,[exp(x1/(x1 + exp(sin(x1*exp(-E))) + sin(x1*exp(-E))) + exp(-sin(x1*exp(-E)))*log(log(x1)))],10,10.0
+0,[exp(x1/(x1 + 2*sin(x1*exp(-E))) + exp(-sin(x1*exp(-E)))*log(log(x1)))],10,10.0
+0,[log(x1 + exp(x1*sin(log(x1*(x1*(x1 + exp(3*x1)*log(x1**2) + log(log(x1**3))) + x1) + x1)))/(2*x1))],0,10.0
+0,[log(x1 + exp(x1*sin(log(x1**2 + x1*(x1*(x1 + exp(3*x1)*log(x1*(x1 + 1)) + log(x1**2 - x1)) + x1))))/(2*x1))],0,10.0
+0,[log(x1 + exp(x1*cos(x1 + x1/log(x1 + x1/log(x1)) + 2))/log(x1))],0,10.0
+0,[log(x1 + exp(x1*cos(x1*log(x1)**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1 + exp(x1 + exp(exp(x1/(x1**2 + x1)))) + 1)))],10,10.0
+0,[exp(1 + exp(-sin(x1*exp(-E)))*log(log(x1)))],10,10.0
+0,[log(x1 + exp(x1*cos(x1/log(log(2*x1)))))],10,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[2*x1/(x1*cos(x1) + x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[log(x1 + 2*exp(x1*cos(x1*log(x1)**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(x1*log(x1)**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2))*log(x1))],10,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[x1*cos(x1**2)*cos(2*x1**2)],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[2*x1/(x1*cos(x1) + x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[(x1 + x1/sin(log(x1) - 1))/log(2*x1**6 + x1)],10,10.0
+0,[(x1 + x1/sin(log(x1) - 1))/log(2*x1**6)],10,10.0
+0,[(x1 + x1/sin(log(x1) - 1))/log(x1**6)],0,10.0
+0,[exp(-log(-2*x1*sin(x1) + 3*x1)*sin(x1 - exp(x1)))],10,10.0
+0,[(x1**2*(-sin(exp(x1)) + cos(x1))*cos(x1) + x1)/(2*x1)],10,10.0
+0,[x1*(-sin(exp(x1)) + cos(x1))*cos(x1)/2],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[x1*cos(x1**2)*cos(2*x1**2)],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[x1/(x1*cos(x1**3) + x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[log((x1**2*(x1 + log(2*x1**2*exp(2*x1*sin(x1 + (x1**2 + x1)/x1)*cos(x1)))) + x1 + exp(x1*sin(x1 + (x1**2 + x1)/x1)))/(2*x1**2))],10,10.0
+0,[log((x1**2*(2*x1 + sin(x1)) + x1 + exp(x1*sin(x1 + (x1**2 + x1)/x1)))/(2*x1**2))],10,10.0
+0,[log((2*x1**3 + x1 + exp(x1*sin(x1 + (x1**2 + x1)/x1)))/(2*x1**2))],10,10.0
+0,[exp(x1*exp(-2))/(x1 + 5)],10,10.0
+0,[exp(x1*exp(-2))/(x1 + 4)],10,10.0
+0,[exp(x1*exp(-2))/(x1 + 3)],10,10.0
+0,[exp(x1*exp(-2))/(x1 + 2)],10,10.0
+0,[exp(x1*exp(-2))/x1],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[x1/(x1*cos(x1**3) + x1)],10,10.0
+0,[2*x1/(x1*cos(x1) + x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[x1**2/(3*x1 - (x1 + 6*x1/log(x1**2))*sin(x1 + (3*x1 - exp(x1) - log(exp(x1) + 1 + log(2*x1)/(2*x1))/x1)/x1) - (2*x1 + 6)*sin(x1 + (4*x1 - exp(x1) - log(2*x1)/(2*x1))/x1))],10,10.0
+0,[x1**2/(3*x1 - (x1 + 6*x1/log(x1**2))*sin(x1 + (3*x1 - exp(x1) - log(1 + log(2*x1)/(2*x1))/x1)/x1) - (2*x1 + (4*x1 + 2*log(x1**2)/x1)/x1)*sin(x1 + (4*x1 - exp(x1) - log(2*x1)/(2*x1))/x1))],10,10.0
+0,[log(x1 + exp(x1*sin(x1*(4*x1 + log(3*x1 + (x1 + exp(x1 + 1) + log(x1))*exp(3*x1) + 2*log(x1)))))/(x1 + log(x1*exp(3*x1) + 2*x1 + log(x1 + E*(x1 + exp(x1) + exp(x1 + 1)) + log(x1)))))],10,10.0
+0,[log(x1 + exp(x1*sin(exp(x1)/2) - cos(x1**4))*exp(-sin(2*x1)) + exp(cos(x1)))],10,10.0
+0,[log(2*x1 + exp(x1*sin(exp(x1)/2) - cos(x1**4))*exp(-sin(exp(x1))))],10,10.0
+0,[log(2*x1 + exp(x1*sin(exp(x1)/2) - cos(x1**4))*exp(-sin(2*x1)))],10,10.0
+0,[log(x1 + exp(x1*sin(exp(x1)/2) - cos(x1**2))*exp(-sin(2*x1)))],10,10.0
+0,[log(x1 + exp(x1*sin(exp(x1)/2) - cos(2*x1**2)) + 1)],10,10.0
+0,[log(x1 + exp(x1*cos(x1*log(x1)**2)) + cos(x1*log(x1)))],10,10.0
+0,[log(x1 + exp(x1*cos(x1*log(x1)**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2))*log(x1))],10,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[x1*sin(exp(x1)) - cos(x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[exp((2*x1*sin(x1*(-4*x1 + log(x1**2 - x1)) + 2*x1) + 2*x1 + log(x1*log(x1) - x1))/x1)],0,10.0
+0,[exp((2*x1*sin(x1*(-4*x1 + log(x1**2 - x1)) + 2*x1) + 2*x1 + 1/cos(1))/x1)],0,10.0
+0,[log(x1 + exp(x1*sin(2*x1 + 1))/(2*x1**2))],10,10.0
+0,[log(2*x1 + exp(x1*sin(2*x1 + 1))/(2*x1**2))],10,10.0
+0,[log(2*x1 + exp(x1*sin(2*x1 + 1))/x1**2)],10,10.0
+0,[exp(-log(x1*log(x1 - log(x1)))*sin(x1 - exp(x1)))],10,10.0
+0,[exp(-log(x1*log(x1 - 1))*sin(x1 - exp(x1)))],0,10.0
+0,[exp(-log(x1*log(x1))*sin(x1 - exp(x1)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2))/x1)],10,10.0
+0,[exp(cos(2*x1)/sin(x1**3))],10,10.0
+0,[-x1*cos(x1/log(log(x1))) + x1],10,10.0
+0,[x1*sin(exp(x1))*cos(x1**2)],10,10.0
+0,[x1*cos(x1**2)**2],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[exp((x1 + sin(x1**2)/x1)*exp(cos(log(x1)))/(x1*cos(log(log(x1 + log(2*x1))))))],10,10.0
+0,[(log(x1*exp(cos(log(2*x1)))) + cos(x1 - exp(2*x1)))*exp(exp(cos(2*x1**2)))],10,10.0
+0,[exp(exp(sin(exp(x1)) + cos(log(4*x1 - exp(E)))))],10,10.0
+0,[log(x1 + exp(x1*cos(x1*log(x1)**2)))],10,10.0
+0,[log(2*x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[log(x1 + exp(x1*cos(2*x1**2)))],10,10.0
+0,[x1*exp(-exp(cos(x1**2 + x1)))],10,10.0
+0,[x1*sin(exp(x1))*cos(x1**2)],10,10.0
+0,[2*x1/(-x1*cos(x1**2) + x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0
+0,[log(x1 + sin(exp(x1)) + (-x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/(x1 + (x1 + (2*x1 + exp(x1)/log(exp(x1) - exp(log(x1 + 1)/x1)))*log(log(exp(x1) - exp(log(x1 + 1)/x1)))/x1)*exp(-x1)))) + x1))))/(x1*(x1 + exp(1/(x1 + (x1 + (x1 + log(x1**2))*log(log(-x1 + exp(x1)))/x1)*exp(-x1))))))],0,10.0
+0,[log(x1 + sin(exp(x1)) + (-x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/(x1 + (x1 + (2*x1 + exp(x1)/x1)*log(log(exp(x1) - exp(log(x1 + 1)/x1)))/x1)*exp(-x1)))) + x1))))/(x1*(x1 + exp(1/(x1 + (x1 + (x1 + log(x1**2))*log(log(-x1 + exp(x1)))/x1)*exp(-x1))))))],0,10.0
+0,[log(x1 + cos(x1) + (-x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/(x1 + (4*x1 + exp(x1)/log(exp(x1) - exp(log(2*x1 + log(exp(x1) - exp(log(2*x1)/x1)))/x1)) + 2*log(log(exp(x1) - exp(log(2*x1)/x1))))*exp(-x1)))) + x1))) - log(x1))/x1**2)],0,10.0
+0,[log(x1 + sin(exp(x1)) + (-x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/(x1 + (x1 + (2*x1 + exp(x1)/log(exp(x1) - exp(log(x1 + exp(x1))/x1)))*log(log(exp(x1) - exp(log(x1 + 1)/x1)))/x1)*exp(-x1)))) + x1))))/x1**2)],0,10.0
+0,[log(x1 + (-x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/(x1 + (x1 + 2*log(log(x1)))/log(exp(x1) - E)**2))) + x1))))/x1**2)],10,10.0
+0,[log(x1 + (-x1**2 - 2*x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/(x1 + x1*exp(-x1)))) + x1))))/x1**2)],0,10.0
+0,[log(x1 + (-x1**2 + exp(x1*cos(x1*(x1*(x1 + exp(1/(x1 + x1*exp(-x1)))) + x1))))/x1**2)],10,10.0
+0,[log(x1 + cos(x1) + (-2*x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/x1)) + x1))))/x1**2)],10,10.0
+0,[log(x1 + (-2*x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/x1)) + x1))))/x1**2)],10,10.0
+0,[log(2*x1 + (-2*x1 + exp(x1*cos(x1*(x1*(x1 + exp(1/x1)) + x1))))/x1**2)],10,10.0
+0,[log(x1 + exp(x1*sin((2*x1**2 + x1)/x1))/(3*x1**2 + x1))],10,10.0
+0,[log(x1 + exp(x1*sin((2*x1**2 + x1)/x1))/(3*x1**2))],10,10.0
+0,[log(x1 + exp(x1*sin((2*x1**2 + x1)/x1))/(2*x1**2))],10,10.0
+0,[log(x1 + exp(x1*sin((2*x1**2 + x1)/x1))/x1**2)],10,10.0
+0,[exp(-log(x1*log(x1) - log(x1**2))*sin(x1 - exp(x1)))],0,10.0
+0,[exp(-log(x1*log(x1) - log(x1))*sin(x1 - exp(x1)))],10,10.0
+0,[exp(-log(x1*log(x1))*sin(x1 - exp(x1)))],10,10.0
+0,[exp(log(x1*log(x1))*sin(exp(x1)))],10,10.0
+0,[exp(log(x1)*cos(x1**2)**2)],10,10.0
+0,[x1*cos(x1**2)*cos(2*x1**2)],10,10.0
+0,[exp(log(x1)*cos(x1**2))],10,10.0
+0,[x1*sin(exp(x1)) - cos(x1)],10,10.0
+0,[x1*sin(exp(x1))],10,10.0
+0,[x1/2],10,10.0
+0,[log(x1**2)],10,10.0
+0,[2],10,10.0
+0,[0],10,10.0

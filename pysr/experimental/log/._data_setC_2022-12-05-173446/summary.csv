@@ -1,0 +1,2 @@
+seed,r,nmse_test,nmse_test_noiseless,success,expression,traversal,error_log,error_exp,error_true_divide,error_multiply,error_node_divide,error_node_invalid,error_node_overflow,error_node_underflow,n_epochs,n_samples,n_cached,t
+0,0.8420238569228521,0.035199315659111954,0.035199315659111954,False,[exp(2*cos(x1**2) + cos(x1**2 + (-x1 - exp(x1))/x1**2))],"exp,add,cos,mul,x1,x1,add,cos,add,add,div,sub,sub,div,sub,x1,x1,x1,exp,x1,x1,mul,x1,x1,sub,x1,x1,mul,x1,x1,cos,mul,x1,x1",157929,202812,13866,3,21971,149824,178978,23837,247,2006979,867606,441.98680305480957

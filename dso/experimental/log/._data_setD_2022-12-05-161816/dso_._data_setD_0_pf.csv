@@ -1,0 +1,15 @@
+complexity,r,count_on_policy,count_off_policy,expression,traversal,nmse_test,nmse_test_noiseless,success
+5,0.2907752104957214,0,1,[0],"mul,sub,x1,x1,x1",5.9491244844662,5.9491244844662,False
+6,0.42442238506056895,0,1,[2],"div,add,x1,x1,x1",1.8391249125911546,1.8391249125911546,False
+8,0.4917187837056014,0,1,[3],"div,add,add,x1,x1,x1,x1",1.0684999928645842,1.0684999928645842,False
+13,0.5191124744539761,0,1,[cos(x1) + 3],"add,cos,x1,div,add,add,x1,x1,x1,x1",0.8581517497134658,0.8581517497134658,False
+17,0.5352428027120024,0,1,[3 - sin(3*x1)],"sub,div,add,x1,add,x1,x1,x1,sin,add,add,x1,x1,x1",0.7539639408806728,0.7539639408806728,False
+18,0.5389665543112827,0,1,[exp(exp(sin(x1*(x1**2 + x1))))],"exp,exp,sin,mul,add,mul,x1,x1,x1,x1",0.7317137789170003,0.7317137789170003,False
+19,0.5840413688544611,0,1,[4 - sin(3*x1)],"sub,div,add,add,x1,add,x1,x1,x1,x1,sin,add,add,x1,x1,x1",0.5072394936361774,0.5072394936361774,False
+22,0.7596635562625584,0,1,[exp(exp(cos(log(x1)**2)))],"exp,exp,cos,mul,log,x1,log,x1",0.10009137991317903,0.10009137991317903,False
+33,0.7605081709293723,0,1,[exp(exp(cos(log(x1)**2) + 1/x1))],"exp,exp,add,cos,mul,log,x1,log,x1,div,exp,sub,x1,x1,x1",0.09916847452915596,0.09916847452915596,False
+35,0.8418368166391791,0,1,[exp(exp(sin(x1/(log(x1)*log(x1 + x1/log(x1))))))],"exp,exp,sin,div,div,x1,log,add,div,x1,log,x1,x1,log,x1",0.0352983954861932,0.0352983954861932,False
+45,0.8427351277332479,0,1,[exp(exp(sin(x1/(log(x1)*log(x1 + (x1 + 1)/log(x1))))))],"exp,exp,sin,div,div,x1,log,div,mul,add,div,add,div,x1,x1,x1,log,x1,x1,x1,x1,log,x1",0.0348242088773898,0.0348242088773898,False
+46,0.8609149429532887,0,1,[exp(exp(sin(x1/(log(x1)*log(x1 + x1/log(x1/log(log(x1))))))))],"exp,exp,sin,div,div,x1,log,add,div,x1,log,div,x1,log,log,x1,x1,log,x1",0.026099996796679004,0.026099996796679004,False
+49,0.8611771036088431,0,1,[exp(exp(sin(x1/(log(x1)*log(x1 + (x1 + x1/log(x1))/log(x1))))))],"exp,exp,sin,div,div,x1,log,div,mul,add,div,add,div,x1,log,x1,x1,log,x1,x1,x1,x1,log,x1",0.025985869514014125,0.025985869514014125,False
+65,0.8735983710706279,0,1,[exp(exp(sin((x1**2/2 + 2*x1)/(x1*log(x1**3)))))],"exp,exp,sin,mul,div,div,mul,div,div,add,add,div,mul,x1,div,x1,div,div,div,mul,add,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,log,sub,mul,mul,x1,x1,x1,sub,x1,x1,x1,x1",0.020935421556125107,0.020935421556125107,False

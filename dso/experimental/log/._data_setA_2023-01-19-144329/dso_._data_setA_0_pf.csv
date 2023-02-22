@@ -1,0 +1,21 @@
+complexity,r,count_on_policy,count_off_policy,expression,traversal,nmse_test,nmse_test_noiseless,success
+5,0.44727761484492146,0,1,[0],"mul,x1,sub,x1,x1",1.5270729380733976,1.5270729380733976,False
+6,0.4600361995177435,0,1,[2],"div,add,x1,x1,x1",1.3776702396385367,1.3776702396385367,False
+7,0.4954316472843619,0,1,[log(x1**2)],"log,mul,x1,x1",1.0372239223214155,1.0372239223214155,False
+8,0.5768710226634864,0,1,[x1/2],"mul,div,x1,add,x1,x1,x1",0.5380072009982192,0.5380072009982192,False
+10,0.6764290672143696,0,1,[x1*sin(exp(x1))],"mul,sin,exp,x1,x1",0.22882026198743086,0.22882026198743086,False
+13,0.6942819341421143,0,1,[2*x1/(x1*cos(x1) + x1)],"div,add,x1,x1,add,mul,cos,x1,x1,x1",0.19389672662081295,0.19389672662081295,False
+16,0.8011536830171151,0,1,[exp(log(x1)*cos(x1**2))],"exp,mul,log,x1,cos,mul,x1,x1",0.061603223182665416,0.061603223182665416,False
+17,0.8140259118677668,0,1,[x1*cos(x1**2)*cos(2*x1**2)],"mul,mul,cos,mul,x1,add,x1,x1,cos,mul,x1,x1,x1",0.05219494171858872,0.05219494171858872,False
+20,0.8632646732371603,0,1,[log(x1 + exp(x1*cos(2*x1**2)))],"log,add,exp,mul,cos,mul,add,x1,x1,x1,x1,x1",0.025088432492493255,0.025088432492493255,False
+22,0.863474030053493,0,1,[log(2*x1 + exp(x1*cos(2*x1**2)))],"log,add,add,exp,mul,cos,mul,add,x1,x1,x1,x1,x1,x1",0.024999537888400866,0.024999537888400866,False
+31,0.8634950983915376,0,1,[log(2*x1 + exp(x1*cos(2*x1**2)) - 2/x1)],"log,add,sub,add,exp,mul,cos,mul,add,x1,x1,x1,x1,x1,div,add,x1,x1,mul,x1,x1,x1",0.024990603222884378,0.024990603222884378,False
+33,0.8795894207666369,0,1,[(x1*log(x1**2 + x1*exp(x1*cos(2*x1**2))) - 2*x1)/x1],"div,sub,sub,mul,log,add,mul,exp,mul,cos,mul,add,x1,x1,x1,x1,x1,mul,x1,x1,x1,x1,x1,x1",0.01873998748925726,0.01873998748925726,False
+34,0.8902262100512328,0,1,[log(x1 + exp(x1*cos(2*x1*(2*x1 + log(x1))))/x1**2)],"log,add,div,div,exp,mul,cos,mul,add,add,log,x1,x1,x1,add,x1,x1,x1,x1,x1,x1",0.015205354988372645,0.015205354988372645,False
+36,0.8903777033151404,0,1,[log(2*x1 + exp(x1*cos(2*x1*(2*x1 + log(x1))))/x1**2)],"log,add,add,div,div,exp,mul,cos,mul,add,add,log,x1,x1,x1,add,x1,x1,x1,x1,x1,x1,x1",0.0151582561444087,0.0151582561444087,False
+46,0.9113763605893553,0,1,[x1*exp(sin(x1**2 + x1 - 2))*log(log(log(log(x1*exp(x1)))))],"mul,div,x1,exp,sin,sub,div,add,x1,x1,x1,add,mul,x1,x1,x1,log,log,log,log,mul,exp,x1,x1",0.009455916800117247,0.009455916800117247,False
+52,0.9139920691476703,0,1,[x1*exp(sin(x1**2 + x1 - 2))*log(log(log(log((x1 + log(x1))*exp(x1)))))],"mul,div,x1,exp,sin,sub,div,add,x1,x1,x1,add,mul,x1,x1,x1,log,log,log,log,mul,exp,x1,add,log,x1,x1",0.008855072978839947,0.008855072978839947,False
+67,0.9173321404801671,0,1,[log(exp(exp(2*(x1*cos((x1*(x1 + exp(2*x1)) + x1)/(2*x1)) + x1)/x1))*log(x1))],"div,mul,log,mul,exp,exp,mul,div,div,add,mul,cos,div,div,mul,add,mul,add,mul,exp,x1,exp,x1,x1,x1,x1,x1,x1,add,x1,x1,x1,x1,x1,x1,add,x1,x1,log,x1,x1,x1",0.008121199241002986,0.008121199241002986,False
+70,0.9222223063111017,0,1,[x1*exp(sin(x1**2 + x1 - log(exp(2*x1)*log(exp(x1)))/x1))*log(log(log(log(x1**2*exp(x1)))))],"mul,div,x1,exp,sin,sub,div,log,mul,exp,add,x1,x1,log,add,sub,x1,x1,exp,x1,x1,add,mul,x1,x1,x1,log,log,log,log,mul,exp,x1,mul,x1,x1",0.007112771826445017,0.007112771826445017,False
+98,0.9231936302351749,0,1,[(2*x1 + (x1 + exp(x1/log(x1 + (2*x1**2 + x1**2/cos(1/(2*x1)) - 2*x1)/x1)))*(log(x1) - sin(1)))/x1**2],"div,div,add,add,mul,add,sub,div,add,exp,div,x1,log,add,div,mul,div,div,mul,add,sub,mul,x1,add,x1,x1,x1,sub,div,x1,mul,div,cos,sub,add,div,div,x1,add,x1,x1,x1,x1,x1,x1,div,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,mul,sub,log,x1,sin,div,x1,x1,x1,x1,x1,x1,x1",0.006921637949739373,0.006921637949739373,False
+109,0.9264948868459649,0,1,[(x1**2 + x1*(log(x1) - 1)*(sin(x1) + (x1 + exp(x1/log(x1 + (2*x1**2 + x1**2/cos(1/(2*log(x1 + 1))) - x1)/x1)))/x1) + x1)/x1**2],"div,div,add,add,mul,add,div,add,exp,div,x1,log,add,div,mul,div,div,mul,add,add,sub,mul,x1,add,x1,x1,x1,x1,sub,div,x1,mul,div,cos,sub,add,div,div,x1,add,x1,x1,log,add,div,x1,x1,x1,x1,x1,x1,div,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,x1,sin,x1,mul,sub,log,x1,div,x1,x1,x1,x1,mul,x1,x1,x1,x1",0.0062943233155401184,0.0062943233155401184,False

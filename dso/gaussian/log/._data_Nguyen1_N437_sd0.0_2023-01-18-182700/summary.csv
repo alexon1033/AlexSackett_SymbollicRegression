@@ -1,0 +1,2 @@
+seed,r,nmse_test,nmse_test_noiseless,success,expression,traversal,error_log,error_exp,error_true_divide,error_node_invalid,error_node_overflow,error_node_underflow,error_node_divide,n_epochs,n_samples,n_cached,t
+0,0.9999999999999998,6.857028446773515e-32,6.857028446773515e-32,True,[x1*(x1**2 + x1) + x1],"add,mul,add,sub,x1,x1,add,mul,x1,x1,x1,x1,x1",484,315,32,422,245,70,94,1,8168,3779,6.545282602310181
