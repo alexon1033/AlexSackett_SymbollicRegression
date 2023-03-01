@@ -5,11 +5,13 @@ import sys
 
 file = sys.argv[1]
 
-data = pd.read_csv(f"data/{file}.csv", delimiter=',', names=['x','y'])
+#data = pd.read_csv(f"data/{file}.csv", delimiter=',', names)
 
-x = data['x'].to_numpy()
-y = data['y'].to_numpy()
-data = np.stack((x,y), axis=-1)
+data = np.genfromtxt(f"data/{file}.csv", delimiter=',')
+
+#x = data['x'].to_numpy()
+#y = data['y'].to_numpy()
+#data = np.stack((x,y), axis=-1)
 np.savetxt('./data/temp.csv', data)
 
 

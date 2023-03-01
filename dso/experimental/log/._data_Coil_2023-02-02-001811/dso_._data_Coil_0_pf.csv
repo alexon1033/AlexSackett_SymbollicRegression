@@ -1,18 +1,18 @@
 complexity,r,count_on_policy,count_off_policy,expression,traversal,nmse_test,nmse_test_noiseless,success
 5,0.41501709620001986,0,1,[0],"mul,sub,x1,x1,x1",1.9868010147022233,1.9868010147022233,False
-6,0.4986795724859144,0,1,[2],"div,add,x1,x1,x1",1.0106194348272417,1.0106194348272417,False
-10,0.49900214313775837,0,1,[exp(1/2)],"exp,div,x1,add,x1,x1",1.0080148135226394,1.0080148135226394,False
-11,0.4996578496165642,0,1,[exp(cos(1))],"exp,cos,div,x1,x1",1.0027409530565443,1.0027409530565443,False
-12,0.4999908037412445,0,1,[2*x1/(x1 + log(x1))],"div,add,x1,x1,add,log,x1,x1",1.000073572776396,1.000073572776396,False
-13,0.5014190688191676,0,1,[1 - cos(log(x1))],"sub,div,x1,x1,cos,log,x1",0.988711616347912,0.988711616347912,False
-14,0.507397265341432,0,1,[exp(sin(log(x1**2)))],"exp,sin,log,mul,x1,x1",0.9425347965757895,0.9425347965757895,False
-15,0.5955335348316647,0,1,[exp(cos(x1/log(x1)))],"exp,cos,div,x1,log,x1",0.46126722295552186,0.46126722295552186,False
-20,0.612288515834269,0,1,[(x1*cos(x1/log(x1)) + 2*x1)/x1],"div,add,add,mul,cos,div,x1,log,x1,x1,x1,x1,x1",0.4009637422720785,0.4009637422720785,False
-22,0.7802941758127975,0,1,[2*exp(cos(x1/log(x1)))],"mul,div,exp,cos,div,x1,log,x1,x1,add,x1,x1",0.07928050520361701,0.07928050520361701,False
-27,0.7891048595711302,0,1,[exp(cos(x1/log(x1)) + cos(1))],"exp,add,sub,add,x1,cos,div,x1,log,x1,x1,cos,div,x1,x1",0.07142721373917849,0.07142721373917849,False
-28,0.8406916985777247,0,1,[exp((sin(1) + 1)*cos(x1/log(x1)))],"exp,mul,cos,div,x1,log,x1,add,sin,div,x1,x1,div,x1,x1",0.03590899878091693,0.03590899878091693,False
-42,0.8569560921651075,0,1,[exp((cos(E/log(x1)) + 1)*cos(x1/log(x1)))],"exp,mul,cos,div,x1,log,x1,add,exp,sub,x1,x1,cos,div,exp,div,x1,x1,log,x1",0.02786259685707714,0.02786259685707714,False
-48,0.8572411217792272,0,1,[2*exp(cos(x1/log(x1))) - exp(cos(log(x1)))],"sub,sub,x1,exp,cos,log,x1,sub,sub,x1,exp,cos,div,x1,log,x1,exp,cos,div,x1,log,x1",0.027733217743536494,0.027733217743536494,False
-82,0.860079332645573,0,1,[2*exp(cos(x1/log(x1)))*cos(log(x1*log(log(x1)))*log(log(2*x1 + log(log(log(x1))))))],"mul,div,exp,cos,div,x1,log,x1,x1,mul,cos,mul,log,log,add,mul,div,x1,mul,x1,div,x1,x1,x1,add,x1,log,log,div,mul,x1,log,x1,x1,log,mul,log,log,x1,x1,add,x1,x1",0.02646590272715195,0.02646590272715195,False
-84,0.8601513414937897,0,1,[2*exp(cos(x1/log(x1)))*cos(log(x1*log(log(x1)))*log(log(2*x1 + log(log(log(2*x1))))))],"mul,div,exp,cos,div,x1,log,x1,x1,mul,cos,mul,log,log,add,mul,div,x1,mul,x1,div,x1,x1,x1,add,x1,log,log,div,mul,x1,log,add,x1,x1,x1,log,mul,log,log,x1,x1,add,x1,x1",0.02643424236403525,0.02643424236403525,False
-193,0.8852861385045191,0,1,[(x1 + (x1 + (x1 + (2*x1*sin(log(x1**2*(2*x1**2*(2*x1 - log(x1**3)) + 1))) + x1)*sin(log(x1**2*(x1**2*(2*x1 - log(log(2*x1**3))) + 1))))*sin(log(x1**2*(3*x1**3 + x1)))*sin(log(x1**2*(x1**2*(2*x1 - log(x1*log(2*x1**2))) + 1))))*sin(log(2*x1**4*(4*x1**4 + 2*x1**2))))/x1],"div,add,mul,sin,log,mul,mul,mul,mul,add,x1,x1,x1,add,mul,mul,mul,add,x1,x1,x1,add,x1,x1,x1,mul,add,x1,x1,x1,x1,x1,add,mul,sin,log,mul,mul,add,mul,mul,x1,x1,add,sub,x1,log,mul,x1,log,mul,mul,div,x1,x1,x1,add,x1,x1,x1,div,x1,x1,x1,x1,mul,sin,log,mul,mul,add,mul,mul,add,x1,add,x1,x1,x1,x1,x1,x1,x1,add,mul,sin,log,mul,mul,add,mul,mul,x1,x1,add,sub,x1,log,log,mul,mul,x1,x1,add,x1,x1,x1,div,x1,x1,x1,x1,add,x1,mul,sin,log,mul,mul,add,mul,mul,add,x1,x1,x1,add,sub,x1,log,mul,mul,x1,x1,x1,x1,div,x1,x1,x1,x1,add,x1,x1,x1,x1,x1,x1",0.016790532509635206,0.016790532509635206,False
+1,0.4986795724859144,0,1,[2],"div,add,x1,x1,x1",1.0106194348272417,1.0106194348272417,False
+2,0.49900214313775837,0,1,[exp(1/2)],"exp,div,x1,add,x1,x1",1.0080148135226394,1.0080148135226394,False
+3,0.4996578496165642,0,1,[exp(cos(1))],"exp,cos,div,x1,x1",1.0027409530565443,1.0027409530565443,False
+8,0.4999908037412445,0,1,[2*x1/(x1 + log(x1))],"div,add,x1,x1,add,log,x1,x1",1.000073572776396,1.000073572776396,False
+5,0.5014190688191676,0,1,[1 - cos(log(x1))],"sub,div,x1,x1,cos,log,x1",0.988711616347912,0.988711616347912,False
+6,0.507397265341432,0,1,[exp(sin(log(x1**2)))],"exp,sin,log,mul,x1,x1",0.9425347965757895,0.9425347965757895,False
+6,0.5955335348316647,0,1,[exp(cos(x1/log(x1)))],"exp,cos,div,x1,log,x1",0.46126722295552186,0.46126722295552186,False
+13,0.612288515834269,0,1,[(x1*cos(x1/log(x1)) + 2*x1)/x1],"div,add,add,mul,cos,div,x1,log,x1,x1,x1,x1,x1",0.4009637422720785,0.4009637422720785,False
+8,0.7802941758127975,0,1,[2*exp(cos(x1/log(x1)))],"mul,div,exp,cos,div,x1,log,x1,x1,add,x1,x1",0.07928050520361701,0.07928050520361701,False
+9,0.7891048595711302,0,1,[exp(cos(x1/log(x1)) + cos(1))],"exp,add,sub,add,x1,cos,div,x1,log,x1,x1,cos,div,x1,x1",0.07142721373917849,0.07142721373917849,False
+11,0.8406916985777247,0,1,[exp((sin(1) + 1)*cos(x1/log(x1)))],"exp,mul,cos,div,x1,log,x1,add,sin,div,x1,x1,div,x1,x1",0.03590899878091693,0.03590899878091693,False
+8,0.8569560921651075,0,1,[exp((cos(E/log(x1)) + 1)*cos(x1/log(x1)))],"exp,mul,cos,div,x1,log,x1,add,exp,sub,x1,x1,cos,div,exp,div,x1,x1,log,x1",0.02786259685707714,0.02786259685707714,False
+7,0.8572411217792272,0,1,[2*exp(cos(x1/log(x1))) - exp(cos(log(x1)))],"sub,sub,x1,exp,cos,log,x1,sub,sub,x1,exp,cos,div,x1,log,x1,exp,cos,div,x1,log,x1",0.027733217743536494,0.027733217743536494,False
+26,0.860079332645573,0,1,[2*exp(cos(x1/log(x1)))*cos(log(x1*log(log(x1)))*log(log(2*x1 + log(log(log(x1))))))],"mul,div,exp,cos,div,x1,log,x1,x1,mul,cos,mul,log,log,add,mul,div,x1,mul,x1,div,x1,x1,x1,add,x1,log,log,div,mul,x1,log,x1,x1,log,mul,log,log,x1,x1,add,x1,x1",0.02646590272715195,0.02646590272715195,False
+28,0.8601513414937897,0,1,[2*exp(cos(x1/log(x1)))*cos(log(x1*log(log(x1)))*log(log(2*x1 + log(log(log(2*x1))))))],"mul,div,exp,cos,div,x1,log,x1,x1,mul,cos,mul,log,log,add,mul,div,x1,mul,x1,div,x1,x1,x1,add,x1,log,log,div,mul,x1,log,add,x1,x1,x1,log,mul,log,log,x1,x1,add,x1,x1",0.02643424236403525,0.02643424236403525,False
+116,0.8852861385045191,0,1,[(x1 + (x1 + (x1 + (2*x1*sin(log(x1**2*(2*x1**2*(2*x1 - log(x1**3)) + 1))) + x1)*sin(log(x1**2*(x1**2*(2*x1 - log(log(2*x1**3))) + 1))))*sin(log(x1**2*(3*x1**3 + x1)))*sin(log(x1**2*(x1**2*(2*x1 - log(x1*log(2*x1**2))) + 1))))*sin(log(2*x1**4*(4*x1**4 + 2*x1**2))))/x1],"div,add,mul,sin,log,mul,mul,mul,mul,add,x1,x1,x1,add,mul,mul,mul,add,x1,x1,x1,add,x1,x1,x1,mul,add,x1,x1,x1,x1,x1,add,mul,sin,log,mul,mul,add,mul,mul,x1,x1,add,sub,x1,log,mul,x1,log,mul,mul,div,x1,x1,x1,add,x1,x1,x1,div,x1,x1,x1,x1,mul,sin,log,mul,mul,add,mul,mul,add,x1,add,x1,x1,x1,x1,x1,x1,x1,add,mul,sin,log,mul,mul,add,mul,mul,x1,x1,add,sub,x1,log,log,mul,mul,x1,x1,add,x1,x1,x1,div,x1,x1,x1,x1,add,x1,mul,sin,log,mul,mul,add,mul,mul,add,x1,x1,x1,add,sub,x1,log,mul,mul,x1,x1,x1,x1,div,x1,x1,x1,x1,add,x1,x1,x1,x1,x1,x1",0.016790532509635206,0.016790532509635206,False

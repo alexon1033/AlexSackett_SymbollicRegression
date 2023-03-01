@@ -25,7 +25,7 @@ for complexity, expression in zip(pf['Complexity'], pf['Equation']):
     try:
         plt.plot(data['x'], data['y'], 'b.', label='Measured magentic field')
         plt.plot(x, f(x), 'r-', label=f'SR fit (complexity: {complexity})')
-        plt.legend()
+        #plt.legend()
         plt.xlabel('x / cm')
         plt.ylabel('B / mT')
         plt.savefig(f"plots/Coil_{complexity}.png")
