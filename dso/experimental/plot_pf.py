@@ -5,7 +5,7 @@ import re
 
 E = np.e
 
-data = pd.read_csv("data/Coil.csv", delimiter=',', header=None, names=['x', 'y'])
+data = pd.read_csv("data/Battery.csv", delimiter=',', header=None, names=['x', 'y'])
 
 pf = pd.read_csv("log/._data_Coil_2023-02-02-001811/dso_._data_Coil_0_pf.csv", delimiter=',', header=0, usecols=['complexity', 'expression'])
 

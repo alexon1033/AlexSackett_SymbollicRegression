@@ -36,7 +36,7 @@ df_mse = pd.DataFrame(mse)
 mse_pct_diff = df_mse.pct_change()
 mse_pct_diff = mse_pct_diff.multiply(-1)
 
-fig, ax = plt.subplots(2, 1, sharex='row')
+fig, ax = plt.subplots(2, 1, sharex='col')
 ax[0].plot(comp, mse, 'k-', label='Mean squared error against compelxity')
 ax[0].set_ylabel('Mean sqared error')
 ax[1].plot(comp, mse_pct_diff[0], 'b-', label='Percentage drop of mean squared error')

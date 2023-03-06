@@ -1,0 +1,22 @@
+{
+  "experiment": {
+    "logdir": "./log",
+    "save_path": "/home/alex/sr/data/gaussian/log/",
+    "timestamp": "1677695916",
+    "task_name": "CoilExtra"
+  },
+  "task": {
+    "task_type": "regression",
+    "dataset": "./data/CoilExtra.csv",
+    "function_set": [
+      "add",
+      "sub",
+      "mul",
+      "div",
+      "sin",
+      "cos",
+      "exp",
+      "log"
+    ]
+  }
+}
